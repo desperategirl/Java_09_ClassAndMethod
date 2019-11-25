@@ -15,7 +15,7 @@ public class ScoreEx_01 {
 		sDTO.sEng = 77;
 		sDTO.sMath = 67;
 
-		sS.viewScore();
+		sS.viewScore(sDTO);
 
 	}
 

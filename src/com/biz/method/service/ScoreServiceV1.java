@@ -4,9 +4,7 @@ import com.biz.method.domain.ScoreDTO;
 
 public class ScoreServiceV1 {
 
-	public void viewScore() {
-
-		ScoreDTO sDTO = new ScoreDTO();
+	public void viewScore(ScoreDTO sDTO) {
 
 		System.out.println("과목성적");
 		System.out.println("국어 : " + sDTO.sKor);
